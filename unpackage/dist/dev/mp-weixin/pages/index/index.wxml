@@ -1,0 +1,1 @@
+<view class="content"><text>首页</text><view class="text-area"><navigator url="/subpages/chat/chat">前往和知心姐姐聊天</navigator></view></view>
