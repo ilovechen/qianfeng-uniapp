@@ -1,0 +1,1 @@
+<view class="child data-v-2a33d5fc">{{'我是组件'+msg+''}}<button data-event-opts="{{[['tap',[['clickSend',['$event']]]]]}}" bindtap="__e" class="data-v-2a33d5fc">子组件发送</button></view>

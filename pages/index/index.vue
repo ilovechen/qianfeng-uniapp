@@ -6,15 +6,20 @@
 			<!-- <navigator url="/pages/404/404">404</navigator> -->
 			<navigator url="/subpages/chat/chat">前往和知心姐姐聊天</navigator>
 		</view>
+		<Child :msg="title" @modelUpdata="childModelUpdata"></Child>
 	</view>
 </template>
 
 <script>
+	import Child from '@/components/child.vue'
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello',
 			}
+		},
+		components:{
+			Child
 		},
 		onLoad() {
 			console.log(getCurrentPages())
@@ -22,7 +27,10 @@
 			// console.log(this.$scope.route())
 		},
 		methods: {
-
+			childModelUpdata(value){
+				console.log(value)
+				this.title = value;
+			}
 		}
 	}
 </script>

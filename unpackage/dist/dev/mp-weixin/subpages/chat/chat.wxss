@@ -120,4 +120,13 @@
   width: 70rpx;
   height: 70rpx;
 }
+.chat-footer .send-btn.data-v-9434be1c {
+  background-color: #3971fa;
+  padding: 10rpx;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+.chat-footer .active-btn.data-v-9434be1c {
+  background: #6db0fb;
+}
 
